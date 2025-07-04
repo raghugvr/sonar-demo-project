@@ -1,19 +1,24 @@
 package com.example;
 
 /**
- * This is a class.
+ * The {@code Greeter} class provides a method to greet someone by name.
  */
 public class Greeter {
 
-  /**
-   * This is a constructor.
-   */
-  public Greeter() {
+    /**
+     * Constructs a {@code Greeter}.
+     */
+    public Greeter() {
+        // Default constructor
+    }
 
-  }
-
-  //TODO: Add javadoc comment
-  public String greet(String someone) {
-    return String.format("Hello, %s!", someone);
-  }
+    /**
+     * Returns a greeting message for the specified person.
+     *
+     * @param someone the name of the person to greet
+     * @return a greeting string
+     */
+    public String greet(String someone) {
+        return String.format("Hello, %s!", someone);
+    }
 }
