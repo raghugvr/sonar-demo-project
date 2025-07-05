@@ -1,4 +1,5 @@
 package com.example;
+package com.example;
 
 /**
  * The {@code Main} class is the entry point for running the Greeter example.
